@@ -23,4 +23,13 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+    
+  - id: lnvs-net # unique identifier
+    name: lnvs.net
+    description: 'Light Novel Vietsub' # default=empty
+    url: 'https://lnvs.net/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
 
