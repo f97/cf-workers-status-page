@@ -23,6 +23,14 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+  - id: git-f97-xyz # unique identifier
+    name: git.f97.xyz
+    description: 'Git with f97.xyz' # default=empty
+    url: 'https://git.f97.xyz/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
     
   - id: lnvs-net # unique identifier
     name: lnvs.net
